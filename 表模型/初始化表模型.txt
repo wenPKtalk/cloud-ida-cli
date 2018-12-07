@@ -1,4 +1,7 @@
-﻿
+﻿-- 创建数据库
+create database cloud_ida;
+use cloud_ida;
+
 --权限表
 DROP TABLE IF EXISTS ida_permission;
 create table ida_permission(
